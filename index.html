@@ -9,25 +9,34 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="css/diseases.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/diseases.js"></script>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <div id="divDebug"></div>
-    <div id="chart_div2016" class="chart_div"></div>
-    <div id="chart_div2015" class="chart_div"></div>
-    <div id="chart_div2014" class="chart_div"></div>
-    <div id="chart_div2013" class="chart_div"></div>
-    <div id="chart_div2012" class="chart_div"></div>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <div>Dataset sourced from <a href="https://data.gov.sg/"></a>https://data.gov.sg/</a><br />
-    Any analysis or transformation of data is made by this site<br />
-    The datasets provided by the Singapore Government and its Statutory Boards via Data.gov.sg are governed by the Terms of Use available at
-    <a href="https://data.gov.sg/terms">https://data.gov.sg/terms</a>. To the fullest extent permitted by law, the Singapore Government and its Statutory Boards are not liable for any damage or loss of any kind caused directly or indirectly by the use of the datasets or any derived analyses or applications.
+    <div class="container-fluid" id="header">
+        <h3>Dataset sourced from the Singapore Ministry of Health's weekly publication of statistics on local infectious diseases.</h3>
+        <a href="https://data.gov.sg/dataset/weekly-infectious-bulletin-cases">https://data.gov.sg/dataset/weekly-infectious-bulletin-cases</a><br />
+        Each epidemiological week begins on a Sunday and ends on Saturday.<br />
+        Any analysis or transformation of data is made by this site.<br />
+        The datasets provided by the Singapore Government and its Statutory Boards via Data.gov.sg are governed by the Terms of Use available at
+        <a href="https://data.gov.sg/terms">https://data.gov.sg/terms</a>.
+        To the fullest extent permitted by law, the Singapore Government and its Statutory Boards are not liable for any damage or loss of any kind
+        caused directly or indirectly by the use of the datasets or any derived analyses or applications.
     </div>
+
+    <div class="container-fluid" id="content">
+      <div id="divDebug"></div>
+      <div id="chart_div2016" class="chart_div"></div>
+      <div id="chart_div2015" class="chart_div"></div>
+      <div id="chart_div2014" class="chart_div"></div>
+      <div id="chart_div2013" class="chart_div"></div>
+      <div id="chart_div2012" class="chart_div"></div>
+    </div>
+
   </body>
 </html>
