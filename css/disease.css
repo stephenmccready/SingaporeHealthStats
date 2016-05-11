@@ -1,3 +1,4 @@
+html, body {height: 100%;}
 .chart_div {
     align: center;
     width: 100%;
@@ -7,6 +8,29 @@
     position: relative;
     opacity: 0.90;
     filter: alpha(opacity=90);
+    padding-top: 1em;
 }
-#divDebug {color: #808080; text-align: justify; font-family: Impact, Charcoal, sans-serif;
-    position: fixed; left:0; top:0; z-index:-1; font-size: 150%; height: 100%;}
+#divDebug {
+    color: #808080;
+    text-align: justify;
+    font-family: Impact, Charcoal, sans-serif;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index:-1;
+    font-size: 150%;
+    height: 100%;
+}
+#header {
+    background-color:#F44336;
+    color:#fff;
+    height:12em;
+    padding-bottom: 1em;
+}
+#header a {
+    color:#fff;
+} 
+#content {
+    padding: 0 !important;
+    margin: 0 !important;
+}
