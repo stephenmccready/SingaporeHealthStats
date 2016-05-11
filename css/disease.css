@@ -1,0 +1,12 @@
+.chart_div {
+    align: center;
+    width: 100%;
+    height: 660px;
+    float: left;
+    background-color: #fff;
+    position: relative;
+    opacity: 0.90;
+    filter: alpha(opacity=90);
+}
+#divDebug {color: #808080; text-align: justify; font-family: Impact, Charcoal, sans-serif;
+    position: fixed; left:0; top:0; z-index:-1; font-size: 150%; height: 100%;}
