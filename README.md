@@ -10,3 +10,5 @@ disease.js - using yahoo query language gets infectious disease data from a comm
 disease.css - style sheet for the page
 
 data source: https://data.gov.sg/dataset/e51da589-b2d7-486b-adfc-4505d47e1206/resource/ef7e44f1-9b14-4680-a60a-37d2c9dda390/download/weekly-infectious-bulletin-cases.csv
+
+View the page at <a href="http://stephenmccready.com/singhealth">http://stephenmccready.com/singhealth</a>
